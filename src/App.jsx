@@ -1,5 +1,5 @@
+import ItemListContainer from "./components/ItemListContainer"
 import NavBar from "./components/NavBar"
-import React from "react";
 
 
 
@@ -10,6 +10,7 @@ const App = () => {
   return (
     <>
       <NavBar/>
+      <ItemListContainer greeting={"Sport STYLE BLACK"}/>
     </>
   )
 }

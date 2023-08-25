@@ -1,6 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
-#dropdown-basic{
-    background-color: black;
-    border-color: black;
+.logo{
+    width: 60px;
+}
+
+.imgcarrito{
+    width: 40px;
+}
+
+
+.greeting{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar {
+    background-color:rgb(244, 239, 239);
+    color:black;
+    padding: 10px;
+    
 }
