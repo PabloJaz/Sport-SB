@@ -12,7 +12,7 @@ const CartWidget = () => {
          <img className='imgcarrito' src={bolsocarrito} alt="" />
         </Box> 
         <Box p="5">
-          <p>6</p>
+          <p><b>6</b></p>
         </Box>
       </Flex>    
     </div>

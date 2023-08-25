@@ -24,7 +24,7 @@ const NavBar =() => {
         <Box p="7">
         <Menu>
           <MenuButton>
-          Categori
+          <b>Categori</b>
           </MenuButton>
         <MenuList>
           <MenuItem>Man</MenuItem>
