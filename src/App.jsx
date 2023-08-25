@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <NavBar/>
-      <ItemListContainer greeting={"Sport STYLE BLACK"}/>
+      <ItemListContainer greeting={"Sport  STYLE BLACK"}/>
     </>
   )
 }
