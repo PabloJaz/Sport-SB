@@ -8,7 +8,7 @@ import {
   MenuItem, Flex, Box, Spacer,
 } from '@chakra-ui/react'
 import CartWidget from './CartWidget'
-import logo from "../../src/assets/logo.jpg"
+import logo from "../../assets/logo.jpg"
 
 
 const NavBar =() => {

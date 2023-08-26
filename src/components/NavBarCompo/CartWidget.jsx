@@ -1,7 +1,7 @@
 import { SunIcon } from '@chakra-ui/icons'
 import { Box, Divider, Flex } from '@chakra-ui/react'
 import React from 'react'
-import bolsocarrito from "../../src/assets/bolsocarrito.png"
+import bolsocarrito from "../../assets/bolsocarrito.png"
 const CartWidget = () => {
   
   return (
