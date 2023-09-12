@@ -1,7 +1,10 @@
-import { SunIcon } from '@chakra-ui/icons'
-import { Box, Divider, Flex } from '@chakra-ui/react'
+
+import { Box, Flex } from '@chakra-ui/react'
 import React from 'react'
 import bolsocarrito from "../../assets/bolsocarrito.png"
+import { Link } from 'react-router-dom'
+
+
 const CartWidget = () => {
   
   return (
@@ -9,7 +12,9 @@ const CartWidget = () => {
     <div>
       <Flex>
         <Box p="3">
+        <Link to={"/cart"}>
          <img className='imgcarrito' src={bolsocarrito} alt="" />
+         </Link>
         </Box> 
         <Box p="5">
           <p><b>6</b></p>

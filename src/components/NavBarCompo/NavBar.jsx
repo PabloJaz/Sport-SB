@@ -9,17 +9,19 @@ import {
 } from '@chakra-ui/react'
 import CartWidget from './CartWidget'
 import logo from "../../assets/logo.jpg"
-
+import { Link } from 'react-router-dom'
 
 const NavBar =() => {
   return (
     <div className='navbar'>
       <Flex>
         <Box p="4">
+          <Link to={"/"}> 
         <img className='logo'
           src={logo} 
           alt="" 
           />
+          </Link>
         </Box>
         <Box p="7">
         <Menu>
